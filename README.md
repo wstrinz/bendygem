@@ -1,6 +1,6 @@
 # Bendy
 
-TODO: Write a gem description
+This is a collection of helpful utilities in use at Bendyworks.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Since this gem includes many different facets (see what I... nevermind) you
+are best off reading the code for things that catch your eye.
 
 ## Contributing
 
