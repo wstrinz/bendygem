@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chris@bendyworks.com"]
   spec.summary       = %q{A collection of helpful libraries}
   spec.description   = %q{This gem is a cornucopia of software bric-à-brac, for great justice}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/twopoint718/bendygem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake",    "< 11"
 
   spec.required_ruby_version = '>= 2.0.0'
 end
