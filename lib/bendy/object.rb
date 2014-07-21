@@ -17,6 +17,14 @@ module Bendy
         public_send(*a, &b) if respond_to?(a.first)
       end
     end
+
+    ##
+    # Shortcut for getting methods not inherited from Object
+    #
+
+    def own_methods
+      self.methods - Object.methods
+    end
   end
 
   refine NilClass do

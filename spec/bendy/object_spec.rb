@@ -18,4 +18,10 @@ describe Object do
       [1, 2, 3].try(:map){ |v| v + 1 }.must_equal [2, 3, 4]
     end
   end
+
+  describe 'Object#own_methods' do
+    it 'returns methods not inherited from Object' do
+      "asdf".own_methods.must_equal "asdf".methods - Object.methods
+    end
+  end
 end
